@@ -20,4 +20,5 @@ I Home Assistant i HACS installeres: **LocalTuya**
 
 - I Settings, Installation tryk på: ![Alt text](<Images/Add Integration.png>)
 
-- Søg efter LocalTuya:  ![Alt text](<Images/Search LocalTuya.png>)
+- Søg efter LocalTuya:  
+![Alt text](<Images/Search LocalTuya.png>)
