@@ -10,6 +10,8 @@ Jeg har en FESH pære
 Download appen: **Smart Life**
 og connect pæren i appen - finder FESH pæren
 
+## Installere LocalTuya i Home Assistant
+
 I Home Assistant i HACS installeres: **LocalTuya**
 
 - Tryk på![Tryk på](Images/HACS_LocalT_Inst.png)
