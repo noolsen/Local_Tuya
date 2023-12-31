@@ -1,4 +1,4 @@
-#Local Tuya#
+# Local Tuya
 
 [Guide på engelsk:](https://smarthomecircle.com/how-to-setup-local-tuya-in-home-assistant)
 
