@@ -12,4 +12,4 @@ og connect pæren i appen - finder FESH pæren
 
 I Home Assistant i HACS installeres: **LocalTuya**
 
-- Tryk på ![](/home/olsen/GitHub/Local_Tuya/Local_Tuya/images/HACS_LocalT_Inst.png)
+- Tryk på ![Alt text](Images/HACS_LocalT_Inst.png)
