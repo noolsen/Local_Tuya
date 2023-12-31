@@ -12,4 +12,12 @@ og connect pæren i appen - finder FESH pæren
 
 I Home Assistant i HACS installeres: **LocalTuya**
 
-- Tryk på ![Alt text](Images/HACS_LocalT_Inst.png)
+- Tryk på![Tryk på](Images/HACS_LocalT_Inst.png)
+
+- Find:  ![Alt text](Images/LocalTuya_App.png)
+
+- Genstart HA
+
+- I Settings, Installation tryk på: ![Alt text](<Images/Add Integration.png>)
+
+- Søg efter LocalTuya:  ![Alt text](<Images/Search LocalTuya.png>)
