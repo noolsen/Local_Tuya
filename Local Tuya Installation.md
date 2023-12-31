@@ -7,7 +7,7 @@ Jeg har en FESH pære
 
 ## Flyt pæren over til eget netværk
 
-Download appen: Smar Life
+Download appen: **Smart Life**
 og connect pæren i appen - finder FESH pæren
 
-I Home Assistant i HACS installeres: LocalTuya
+I Home Assistant i HACS installeres: **LocalTuya**
