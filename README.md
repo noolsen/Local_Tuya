@@ -38,7 +38,9 @@ I Home Assistant i HACS installeres: **LocalTuya**
   Tryg på: Finish
 
 - Åbn Local Tuya ![Alt text](Images/Abn_LocalTuya.png)
-- Tryk på Configure og marker: Add new Device![Alt text](Images/AddNewDevice.png)
+
+- Tryk på Configure og marker: Add new Device
+    ![Alt text](Images/AddNewDevice.png)
   
   Tryk på: Submit
 - Local Tuya finder den nye device med IP-adresse. Tryk på: Submit
