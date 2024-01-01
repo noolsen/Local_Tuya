@@ -40,6 +40,7 @@ I Home Assistant i HACS installeres: **LocalTuya**
 - Åbn Local Tuya ![Alt text](Images/Abn_LocalTuya.png)
 
 - Tryk på Configure og marker: Add new Device
+
     ![Alt text](Images/AddNewDevice.png)
   
   Tryk på: Submit
