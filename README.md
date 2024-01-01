@@ -57,9 +57,11 @@ I Home Assistant i HACS installeres: **LocalTuya**
 - Opret et Cloud Project, tryk på  ![Alt text](Images/CreateCloud.png)
 
 - Udfyld formular, husk Data Center og tryk på: Create
-![Alt text](Images/CreateCloudProject.png)
+
+    ![Alt text](Images/CreateCloudProject.png)
 - Der dukker nu et billede op med: Authorize API services, tryk på: Authorize
 - I billedet med det oprettede projekt tryk på Devices:
-![Alt text](Images/Devices.png)
+
+    ![Alt text](Images/Devices.png)
 
 
