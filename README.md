@@ -47,7 +47,7 @@ I Home Assistant i HACS installeres: **LocalTuya**
 - Local Tuya finder den nye device med IP-adresse. Tryk på: Submit
   I skærmbilledet indtastes et navn for Device
     
-    ![Alt text](Images/ConfigureTuyaDevice.png)
+    ![Alt text](Images/ConfigureTuyaDevice1.png)
   
   Nu skal  Local Key findes.
 
@@ -65,6 +65,8 @@ I Home Assistant i HACS installeres: **LocalTuya**
 - Der dukker nu et billede op med: Authorize API services, tryk på: Authorize
 - I billedet med det oprettede projekt tryk på Devices:
 
-    ![Alt text](Images/Devices.png)
+    ![Alt text](Images/Devices1.png)
+
+    ![Alt text](Images/Devices_2.png)
 
 
