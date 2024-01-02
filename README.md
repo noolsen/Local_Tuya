@@ -69,4 +69,52 @@ I Home Assistant i HACS installeres: **LocalTuya**
 
     ![Alt text](Images/Devices_2.png)
 
+- Tryk nu på Link Tuya Account og knappen: ![Alt text](Images/AddAppAccountBut.png)
+
+  Følgende billede vises:
+
+  ![Alt text](Images/ScanCode1.png)
+
+- Åbn nu *Smart Life* appen. Under *Home* vælg "+" tegnet og *Scan*
+  Scan QR koden
+
+- I *Tuya* platformen vise nu billedet:
+
+  ![Alt text](Images/LinkTuyaAccount.png)
+  Tryk på *OK*
+
+  ![Alt text](Images/ManageDevice1.png)
+  Tryk på "X"
+
+- Nu vises devicen i flg. billede:
+
+  ![Alt text](Images/LocalTuyaDeviceShow1.png)
+
+  Appen er nu linket til cloud projektet.
+
+- Klik på fanen *All Devices* og du kan se din device
+
+  ![Alt text](Images/AllDevices1.png)
+  Marker *Device ID* og kopier id'en.
+
+- Klik nu på:
+
+  ![Alt text](Images/CloudAPIExplorer.png)
+
+- I det nye billede vælges:
+
+  ![Alt text](Images/DeviceID1.png)
+  
+  og den kopierede ID indsættes.
+
+  Tryk på: ![Alt text](Images/SubmitRequest.png)
+
+- I flg. billede set devicens UUID:
+
+  ![Alt text](Images/UUID1.png)
+
+  Kopier UUID'en.
+
+
+
 
