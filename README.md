@@ -115,6 +115,3 @@ I Home Assistant i HACS installeres: **LocalTuya**
 
   Kopier UUID'en.
 
-
-
-
