@@ -44,8 +44,9 @@ I Home Assistant i HACS installeres: **LocalTuya**
     ![Alt text](Images/AddNewDevice.png)
   
   Tryk på: Submit
-- Local Tuya finder den nye device med IP-adresse. Tryk på: Submit
-  I skærmbilledet indtastes et navn for Device
+  Local Tuya finder den nye device med IP-adresse. Tryk på: Submit
+  
+- I skærmbilledet indtastes et navn for Device
     
     ![Alt text](Images/ConfigureTuyaDevice1.png)
   
@@ -109,9 +110,47 @@ I Home Assistant i HACS installeres: **LocalTuya**
 
   Tryk på: ![Alt text](Images/SubmitRequest.png)
 
-- I flg. billede set devicens UUID:
+- I flg. billede set devicens *Local Key*:
 
-  ![Alt text](Images/UUID1.png)
+  ![Alt text](Images/LocalKey1.png)
 
-  Kopier UUID'en.
+  Kopier local_key'en.
+
+- Tilbage i HA indsættes *Local Key*
+
+  ![Alt text](Images/DeviceLocalKey1.png)
+
+  Tryk på: *Submit*
+
+- Vælg *Entity Type*
+
+  ![Alt text](Images/EntityType.png)
+
+  Tryk på *Submit*
+
+- Entiteten skal nu konfigures afhængig af device type. På [GitHub](https://www.markdownguide.org/cheat-sheet/) findes forslag for forskellige devices.
+
+  Her anvendes værdierne for en pære:
+
+  ![Alt text](Images/ConfigureEntity.png)
+
+  *Scene* behøves ikke at blive udfyldt, tryk på *Submit*. Entitets typen udfyldes igen, tryk derefter på *Submit*. Herefter fås:
+
+  ![Alt text](Images/Succes.png)
+
+  Tryk på *Finish*
+
+- Under *Setting*, *Devices* findes nu den konfigurerede device.
+
+  ![Alt text](Images/SettingDevices.png)
+
+  Åbn devicen og *Device Info* vise:
+
+  ![Alt text](Images/DeviceInfo.png)
+
+  Klik på pæren og den kan nu indstilles:
+
+  ![Alt text](Images/FESHFinish.png)
+
+  
 
