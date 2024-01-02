@@ -1,156 +1,158 @@
 # Local Tuya Installation
 
-[Guide på engelsk:](https://smarthomecircle.com/how-to-setup-local-tuya-in-home-assistant)
+[Other guide in english, used as inspiration:](https://smarthomecircle.com/how-to-setup-local-tuya-in-home-assistant)
 
-[Hvis du har en FESH enhed:](https://fesh.dk/hjaelpecenter/hvordan-flytter-jeg-min-produkter-til-et-andet-wi-fi-netvaerk/)
-Følgende er vist for en FESH pære.
+[If you are using a FESH item:](https://fesh.dk/hjaelpecenter/hvordan-flytter-jeg-min-produkter-til-et-andet-wi-fi-netvaerk/)
+The following is shown for a FESH light bulb.
 
-## Flyt pæren over til eget netværk
+## Move the bulb to your own network
 
-Download appen: **Smart Life**
-og connect pæren i appen - finder FESH pæren
+Download the app: **Smart Life**
+and connect your bulb in the app - shows the FESH bulb
 
-## Installere LocalTuya i Home Assistant
+## Install LocalTuya in Home Assistant
 
-I Home Assistant i HACS installeres: **LocalTuya**
+In *Home Assistant*, *HACS* install: **LocalTuya**
 
-- Tryk på![Tryk på](Images/HACS_LocalT_Inst.png)
+- Click on![Tryk på](Images/HACS_LocalT_Inst.png)
 
 - Find:  ![Alt text](Images/LocalTuya_App.png)
 
-- Genstart HA
+- Restart *HA*
 
-- I Settings, Installation tryk på: ![Alt text](<Images/Add Integration.png>)
+- In *Settings*, *Installation* click on: ![Alt text](<Images/Add Integration.png>)
 
-- Søg efter LocalTuya:
+- Look for LocalTuya:
 
     ![](<Images/Search LocalTuya.png>)
 
-## Opsætning af LocalTuya
+## Settings for LocalTuya
 
-- Start configuration af Local Tuya – husk at markere ”Do not configure …”
+- Start configuration of Local Tuya – remember to mark ”Do not configure …”
 ![Alt text](Images/ConfigureTuya.png)
 
-  og tryk på: Submit
+  and click on: *Submit*
 
     ![Alt text](Images/ConfigureTuya_Succes.png)
   
-  Tryg på: Finish
+  Click on: *Finish*
 
-- Åbn Local Tuya ![Alt text](Images/Abn_LocalTuya.png)
+- Open Local Tuya ![Alt text](Images/Abn_LocalTuya.png)
 
-- Tryk på Configure og marker: Add new Device
+- Click on *Configure* and mark: Add new Device
 
     ![Alt text](Images/AddNewDevice.png)
   
-  Tryk på: Submit
-  Local Tuya finder den nye device med IP-adresse. Tryk på: Submit
+  Click on: *Submit*
+  Local Tuya will now find the new device with its IP-adress. Click on: *Submit*
   
-- I skærmbilledet indtastes et navn for Device
+- Insert a name for the device
     
     ![Alt text](Images/ConfigureTuyaDevice1.png)
   
-  Nu skal  Local Key findes.
+  Now we have to find the Local Key.
 
-- Opret en Tuya account på:  https://iot.tuya.com/
+- Create a Tuya account at:  https://iot.tuya.com/
 
-- Efter oprettelse af account tryk på: Cloud, Development
+- After creation of your account click on: *Cloud*, *Development*
 
     ![Alt text](Images/TuyaDevelopment.png)
 
-- Opret et Cloud Project, tryk på  ![Alt text](Images/CreateCloud.png)
+- Create a Cloud Project, click on:  ![Alt text](Images/CreateCloud.png)
 
-- Udfyld formular, husk Data Center og tryk på: Create
+- Fill in the the formular, remember *Data Center* and click on: Create
 
     ![Alt text](Images/CreateCloudProject.png)
-- Der dukker nu et billede op med: Authorize API services, tryk på: Authorize
-- I billedet med det oprettede projekt tryk på Devices:
+
+- Now a window: *Authorize API services* appears, click on: *Authorize*
+- In the windowwith your new project, click on the tab: *Devices*
 
     ![Alt text](Images/Devices1.png)
 
     ![Alt text](Images/Devices_2.png)
 
-- Tryk nu på Link Tuya Account og knappen: ![Alt text](Images/AddAppAccountBut.png)
+- Click on the tab: *Link Tuya Account* and the button: ![Alt text](Images/AddAppAccountBut.png)
 
-  Følgende billede vises:
+  The following window is shown:
 
   ![Alt text](Images/ScanCode1.png)
 
-- Åbn nu *Smart Life* appen. Under *Home* vælg "+" tegnet og *Scan*
-  Scan QR koden
+- Now open the *Smart Life* app. At *Home* choose "+" and *Scan*.
+  
+  Scan the QR coode.
 
-- I *Tuya* platformen vise nu billedet:
+- At the *Tuya* platform the following window is shown:
 
   ![Alt text](Images/LinkTuyaAccount.png)
-  Tryk på *OK*
+  
+  Click on: *OK*
 
   ![Alt text](Images/ManageDevice1.png)
-  Tryk på "X"
+  
+  Click on: "X"
 
-- Nu vises devicen i flg. billede:
+- Now your device is shown:
 
   ![Alt text](Images/LocalTuyaDeviceShow1.png)
 
-  Appen er nu linket til cloud projektet.
+  Your app is now linked to the cloud project.
 
-- Klik på fanen *All Devices* og du kan se din device
+- Click on the tab: *All Devices* and the device is shown.
 
   ![Alt text](Images/AllDevices1.png)
-  Marker *Device ID* og kopier id'en.
 
-- Klik nu på:
+  Copi the *Device ID*.
+
+- Click on:
 
   ![Alt text](Images/CloudAPIExplorer.png)
 
-- I det nye billede vælges:
+- In the new window choose:
 
   ![Alt text](Images/DeviceID1.png)
   
-  og den kopierede ID indsættes.
+  and insert the devide-id.
 
-  Tryk på: ![Alt text](Images/SubmitRequest.png)
+  Click on: ![Alt text](Images/SubmitRequest.png)
 
-- I flg. billede set devicens *Local Key*:
+- In the next window you can see the *Local Key* for the device:
 
   ![Alt text](Images/LocalKey1.png)
 
-  Kopier local_key'en.
+  Copy the local_key.
 
-- Tilbage i HA indsættes *Local Key*
+- Back in HA insert the *Local Key*
 
   ![Alt text](Images/DeviceLocalKey1.png)
 
-  Tryk på: *Submit*
+  Click on: *Submit*
 
-- Vælg *Entity Type*
+- Choose an *Entity Type*
 
   ![Alt text](Images/EntityType.png)
 
-  Tryk på *Submit*
+  Click on *Submit*
 
-- Entiteten skal nu konfigures afhængig af device type. På [GitHub](https://www.markdownguide.org/cheat-sheet/) findes forslag for forskellige devices.
+- The enntity has now to be configured depending on the device type. At [GitHub](https://www.markdownguide.org/cheat-sheet/) you can find proprosals for different devices.
 
-  Her anvendes værdierne for en pære:
+  Here the values for a ligt-bulb are used:
 
   ![Alt text](Images/ConfigureEntity.png)
 
-  *Scene* behøves ikke at blive udfyldt, tryk på *Submit*. Entitets typen udfyldes igen, tryk derefter på *Submit*. Herefter fås:
+  You do not need to fill out *Scene*, click on *Submit*. Enter entity-type again, click *Submit*. Now you get:
 
   ![Alt text](Images/Succes.png)
 
-  Tryk på *Finish*
+  Click on: *Finish*
 
-- Under *Setting*, *Devices* findes nu den konfigurerede device.
+- At *Setting*, *Devices* the configured device is now shown.
 
   ![Alt text](Images/SettingDevices.png)
 
-  Åbn devicen og *Device Info* vise:
+  Open the device and *Device Info* is shown:
 
   ![Alt text](Images/DeviceInfo.png)
 
-  Klik på pæren og den kan nu indstilles:
+  Click on the light-bulb and it can now be set up:
 
   ![Alt text](Images/FESHFinish.png)
-
-  
-
